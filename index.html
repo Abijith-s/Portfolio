@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>DevFolio</title>
+  <title>Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -47,8 +47,8 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#testimonials">Testimonials</a></li>
           <li><a class="nav-link scrollto " href="#work">Portfolio</a></li>
+          <li><a class="nav-link scrollto " href="#testimonials">Testimonials</a></li>
           <li><a class="nav-link scrollto " href="#blog">Interests</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -656,25 +656,26 @@
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
                               <input  type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                              <p id="error1"></p>
+                              <p style="color: red;" id="error1"></p>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
                               <input type="text" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                              <p id="error2"></p>
+                              <p style="color: red;" id="error2"></p>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
                               <input type="text" class="form-control" name="phone" id="phone" placeholder="Your number" required>
-                              <p id="error3"></p>
+                              <p style="color: red;" id="error3"></p>
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
                               <textarea id="message" class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                              <p id="error4"></p>
+                              <p style="color: red;" id="error4"></p>
+                              
                             </div>
                           </div>
                           <div class="col-md-12 text-center my-3">
@@ -701,16 +702,18 @@
                       </p>
                       <ul class="list-ico">
                         <li><span class="bi bi-geo-alt"></span>Kolavayalil House,Payyampally P.O Wayanad</li>
-                        <li><span class="bi bi-phone"></span>6238416033</li>
-                        <li><span class="bi bi-envelope"></span>abijithsebastian66@gmail.com</li>
+                        <a href="tel:6238416033"><li><span class="bi bi-phone"></span>6238416033</li></a>
+                        <a href="mailto:abijithsebastian66@gmail.com"><li><span class="bi bi-envelope"></span>abijithsebastian66@gmail.com</li></a>
                       </ul>
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href="https://www.facebook.com/abijithkolavayalil.kolavayalil"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href="https://instagram.com/abijith.sebastian?utm_medium=copy_link"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://www.facebook.com/abijithkolavayalil.kolavayalil" target="_blank"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href="https://instagram.com/abijith.sebastian?utm_medium=copy_link" target="_blank"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
                         <!-- <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li> -->
-                        <li><a href="https://www.linkedin.com/in/abijith-sebastian-3743981b8 "><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/abijith-sebastian-3743981b8 " target="_blank"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://github.com/Abijith-s/ " target="_blank"><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -729,8 +732,19 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+          <div class="socials">
+            <ul>
+              <li><a href="https://www.facebook.com/abijithkolavayalil.kolavayalil" target="_blank"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+              <li><a href="https://instagram.com/abijith.sebastian?utm_medium=copy_link" target="_blank"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+              <!-- <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li> -->
+              <li><a href="https://www.linkedin.com/in/abijith-sebastian-3743981b8 " target="_blank"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+              <li><a href="https://github.com/Abijith-s/ " target="_blank"><span class="ico-circle"><i class="bi bi-github"></i></span></a></li><br><br>
+              <a href="mailto:abijithsebastian66@gmail.com"><li >  abijithsebastian66@gmail.com</li></a><br><br>
+              <a href="tel:6238416033"><li><span class="bi bi-phone"></span>6238416033</li></a>
+
+            </ul>
+          </div>
+        
             <div class="credits">
               <!--
               All the links in the footer should remain intact.
@@ -738,7 +752,7 @@
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
             -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              
             </div>
           </div>
         </div>
